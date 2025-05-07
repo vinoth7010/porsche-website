@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-video-2 video {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border: 0;
+}
+.bg-video-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    box-shadow:  inset 0px 100px 20px  #0000007f,
+                 inset 0px -100px 20px  #0000007d;
+    border: 0;
+}
+.porsche-logo{
+    width: 230px;
+    height: 27px;
+    
+}
+.logo-parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.menu-icon{
+    margin-top: 10px;
+    background-color: blue;
+    
+}
+.user-icon{
+    margin-top: 10px;
+}
+.home-page{
+    position: absolute;
+    top: 250px;
+    margin-left: 150px;
+}
+.car-content{
+    font-size: 170px;
+    margin-top: -400px;
+    font-family: "Kaushan Script", cursive;
+}
+.pg-2-container{
+    margin-top: 400px;
+    margin-left: 60px;
+}
+.pg-2-card{
+    margin-top: -150px !important;
+}
+.sub-text-1{
+    font-size: 130px;
+    margin-left: 20px;
+}
+.page-2-content{
+    font-size: 50px;
+    font-weight: 460;
+    margin-top: 30px;
+}
+.font-size-1{
+    font-size: 70px;
+}
+
+
+
+@media screen and (max-width:396px) {
+.bg-video-2 video{
+        width: 624px;
+        height: 700px !important;
+       
+}
+.bg-video-2::before{
+    width: 624px;
+    height: 700px;
+}
+.porsche-logo{
+    margin-left: 200px;
+}
+.car-page-2{
+    width: 600px !important;
+    height: 200px !important;
+    margin-left: 260px;
+}
+.car-content{
+    margin-left: 190px;
+    margin-top: -350px;
+}
+.pg-2-container{
+    margin-top: 160px;
+   
+}
+.pg-2-card{
+    margin-top: 20px !important;
+}
+}
+

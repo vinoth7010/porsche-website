@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-video-2 video {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    border: 0;
+}
+
+.bg-video-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    box-shadow: inset 0px 100px 20px #0000007f,
+        inset 0px -100px 20px #0000007d;
+    border: 0;
+}
+
+.porsche-logo {
+    width: 230px;
+    height: 27px;
+}
+
+.logo-parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.menu-icon {
+    margin-top: 10px;
+
+}
+
+.user-icon {
+    margin-top: 10px;
+}
+
+.home-page {
+    position: absolute;
+    top: 250px;
+    margin-left: 150px;
+}
+
+.home-h1 {
+    font-weight: 360;
+    font-size: 110px;
+    width: 200px;
+}
+
+.button-1 {
+    height: 60px;
+    width: 360px;
+    border: 2px solid white;
+}
+
+.button-1:hover {
+    background-color: #cccccc55 !important;
+    backdrop-filter: blur(20px);
+}
+
+.home-bottom-content {
+    color: rgb(205, 203, 203);
+    font-size: 15px;
+}
+
+.card-button {
+    position: absolute;
+    bottom: 10px;
+    z-index: 6;
+}
+
+.card {
+    width: 365px !important;
+    height: 265px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    left: 0;
+    box-shadow: inset 0px 100px 20px #0000003f,
+        inset 0px -100px 20px #00000034;
+    border: 0;
+    border-radius: 10px;
+    z-index: 5;
+}
+
+.card-parent {
+    margin-top: 80px;
+}
+
+.card-para {
+    font-size: 15px;
+    width: 1300px;
+    height: 100px;
+    margin-left: 170px;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+
+}
+
+.final-img:hover {
+    transform: scale(1.1);
+}
+
+.final-img {
+    transition: 0.5s;
+   
+}
+
+.card-img-top-1 {
+    width: 555px;
+    height: 780px !important;
+    transition: 0.5s;
+
+
+}
+
+.card-img-top-1:hover {
+    transform: scale(1.1);
+}
+
+.model-car-content {
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.card-text {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    font-family: "Kaushan Script", cursive;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.card-para-1 {
+    top: 85px;
+    background-color: rgb(127, 125, 125);
+    height: 25px;
+    width: 75px;
+    font-size: 15px;
+}
+
+.card-3 {
+    position: relative;
+}
+
+.card-3::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    left: 0;
+    box-shadow: inset 0px 100px 20px #00000053,
+        inset 0px -100px 20px #00000061;
+    border: 0;
+    border-radius: 10px;
+    z-index: 3;
+}
+
+.card-content {
+    width: 450px;
+    margin-left: 32px;
+    font-weight: 390;
+    font-size: 28px;
+}
+
+.button-2 {
+    width: 480px;
+    height: 55px;
+    margin: 0 auto !important;
+    z-index: 100;
+    position: relative;
+}
+
+.button-2:hover {
+    background-color: rgb(190, 186, 186);
+}
+
+.button-3 {
+    width: 480px;
+    height: 55px;
+    margin: 0 auto !important;
+    background-color: rgba(30, 29, 29, 0.82);
+    border: 2px solid white;
+    position: relative;
+    z-index: 100;
+}
+
+.button-3:hover {
+    background-color: rgb(50, 49, 49);
+    border: 1px solid white;
+}
+
+.button-parent {
+    bottom: 30px;
+}
+
+.card-7-text {
+    margin-top: 160px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.bottom-card-final {
+    width: 350px;
+    height: 350px;
+    position: relative;
+
+
+
+}
+
+.bottom-card-final::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    box-shadow: inset 0px 100px 20px #00000082,
+        inset 0px -100px 20px #00000072;
+    border-radius: 15px;
+    z-index: 1000;
+}
+
+.card-button {
+    z-index: 1001;
+}
+
+.footer-content {
+    margin-top: 150px;
+    width: 100%;
+    height: 500px;
+}
+
+.button-4 {
+    width: 330px;
+    height: 55px;
+    font-size: 18px;
+}
+
+.footer-column-2 {
+    margin-top: 140px !important;
+    margin-left: -100px;
+}
+
+.facebook-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.menu-parent {
+    width: 1000px !important;
+}
+
+.list-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+
+}
+
+.card-parent-2 {
+    background-color: rgb(240, 240, 240);
+    height: 800px;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 110px !important;
+    gap: 30px;
+    padding-bottom: 490px !important;
+}
+
+.col-parent-1 {
+    padding-top: 100px;
+}
+
+.list-text-1 {
+    width: 380px;
+    height: 50px;
+    background-color: rgb(230, 230, 230) !important;
+    font-weight: 500px !important;
+
+}
+
+.list-text-2 {
+    width: 380px;
+    height: 50px;
+    font-weight: 500px !important;
+}
+
+.list-text-2:hover {
+    background-color: rgb(230, 230, 230) !important;
+
+}
+
+.car-1 {
+    margin-top: 350px !important;
+}
+
+.car-card-1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.car-card-parent {
+    height: 210px !important;
+    width: 340px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.car-card-parent:hover {
+    background-color: #6e6d6dec;
+}
+
+.car-card-parent img {
+    transition: 1s;
+}
+
+.car-card-parent:hover img {
+    transform: translateX(30px);
+}
+
+.menu-2-parent {
+    flex-direction: column;
+    gap: 25px;
+}
+
+.menu-3-parent {
+    flex-direction: column;
+    gap: 25px;
+}
+
+.menu-4-parent {
+    flex-direction: column;
+    gap: 25px;
+    width: 380px;
+}
+.card-button-1{
+    z-index: 100000 !important;
+    color: rgb(255, 255, 255) !important;
+    margin: -50px 0 0 0;
+}
+
+#card-parent{
+    color: white;
+
+}
+.bottom-card-final{
+    overflow: hidden;
+}
+.footer-content-3{
+    margin-left: 40px !important;
+}
+.six-card-parent{
+    margin-left: 40px !important;
+}
+
+
+@media screen and (max-width:396px) {
+    .home-page {
+        /* width: 200px !important; */
+        /* background-color: green; */
+        margin-left: 0px !important;
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px !important;
+        margin-top: 200px;
+
+
+
+
+    }
+
+    .home-h1 {
+        font-size: 26px;
+        font-weight: 500;
+
+    }
+
+    .button-1 {
+        width: 280px;
+
+    }
+
+    .bg-video-2 video {
+        height: 675px !important;
+    }
+
+    .bg-video-2::before {
+        height: 675px !important;
+    }
+
+    .card-parent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .card {
+        width: 300px !important;
+    }
+
+    .card-3 {
+        width: 300px !important;
+        /* height: 480px !important; */
+    }
+
+    .card-4 {
+        width: 300px !important;
+    }
+
+    .button-2 {
+        width: 280px;
+    }
+
+    .card-img-top-1 {
+        height: 510px !important;
+    }
+
+    .six-card-parent {
+        margin-left: 8px !important;
+    }
+
+    .button-3 {
+        width: 280px;
+    }
+
+    .card-content {
+        font-size: 20px !important;
+        margin-left: 20px;
+        width: 250px;
+        font-weight: 400;
+    }
+
+    .section-2-card {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .button-4 {
+        margin-left: -70px;
+    }
+
+    .bottom-card-final {
+        width: 330px;
+        height: 180px;
+    }
+    .footer-content-3{
+        margin-left: -5px !important;
+    }
+    .button-4{
+        width: 300px;
+        margin-left: 0px;
+    }
+    .footer-content{
+        height: 100%;
+    }
+    .footer-column-2{
+        margin-left: 0px;
+        margin-top: -0px !important;
+    }
+
+   
+}

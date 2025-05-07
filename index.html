@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="position-relative">
+        <div class="bg-video-2">
+            <video autoplay muted loop id="myVideo">
+                <source src="./project-assets/car video-2.mp4" type="video/mp4" />
+            </video>
+        </div>
+
+        <div class="home-page">
+            <h1 class="home-h1 text-white">Further together.</h1>
+            <a target="_blank" href="http://127.0.0.1:5500/index2.html"><button class="button-1 text-white mt-4 rounded bg-transparent">Discover the cayenne E-Hybrid Coupe</button></a>
+            
+        </div>
+
+        <div
+            class="d-flex align-items-center justify-content-center w-100 position-absolute bottom-0 start-50 translate-middle home-bottom-section">
+            <p class="home-bottom-content flex-grow-2 ms-auto d-none d-md-flex">Electrical Consumption
+                combined[WLTP]:21.3-20.6kwh/km,co2-emissions
+                combined[WLTP]:0 g/km,CO2</p>
+            <div onclick="videopp()" class="mb-3 flex-grow-2 ms-auto me-4 ppbtn">
+                <i class='bx bx-pause text-white fs-1'></i>
+            </div>
+        </div>
+
+    </div>
+    <div class="d-flex justify-content-around nav-parent position-absolute top-0 w-100 mt-4">
+        <div class="d-none d-md-flex">
+            <i class='bx bx-menu fs-4 menu-icon text-white' data-bs-toggle="offcanvas" href="#offcanvasExample"
+                role="button" aria-controls="offcanvasExample"><span class="">Menu</span></i>
+            <div class="offcanvas offcanvas-start offcanvas_section menu-parent" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <button type="button" class="btn-close position-absolute  " data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+                <div class="container">
+                    <div class="row parent-row">
+                        <div class="col col-parent-1 ps-5">
+                            <section class="list-unstyled list-parent">
+                                <li class="list-text-2 ps-3 pt-2 rounded">
+                                    <div
+                                        class="text-decoration-none text-black fs-5 list d-flex justify-content-between pe-3">
+                                        <span>Models</span>
+                                        <span><i class='bx bxs-chevron-right'></i></span>
+                                    </div>
+                                </li>
+                                <li class="list-text-2 ps-3 pt-2 rounded">
+                                    <div
+                                        class="text-decoration-none text-black fs-5 list d-flex justify-content-between pe-3">
+                                        <span>Vehical Purchase</span><span><i class='bx bxs-chevron-right'></i></span>
+                                    </div>
+                                </li>
+                                <li class="list-text-2 ps-3 pt-2 rounded">
+                                    <div
+                                        class="text-decoration-none text-black fs-5 list d-flex justify-content-between pe-3">
+                                        <span>Service</span><span><i class='bx bxs-chevron-right'></i></span>
+                                    </div>
+                                </li>
+                                <li class="list-text-2 ps-3 pt-2 rounded">
+                                    <div
+                                        class="text-decoration-none text-black fs-5 list d-flex justify-content-between pe-3">
+                                        <span>Experience</span><span><i class='bx bxs-chevron-right'></i></span>
+                                    </div>
+                                </li>
+                                <li class="list-text-2 ps-3 pt-2 rounded">
+                                    <div
+                                        class="text-decoration-none text-black fs-5 list d-flex justify-content-between pe-3">
+                                        <span>Find
+                                            a Dealer</span><span><i class='bx bxs-chevron-right'></i>
+                                    </div></a>
+                                </li>
+                                <li class="list-text-2 ps-3 pt-2 rounded">
+                                    <div
+                                        class="text-decoration-none text-black fs-5 list d-flex justify-content-between pe-3">
+                                        <span>My
+                                            porsche</span><span><i class='bx bxs-chevron-right'></i>
+                                    </div></a>
+                                </li>
+                            </section>
+                        </div>
+
+
+                        <div class="col d-flex justify-content-center card-parent-2 overflow-y-scroll">
+                            <div class="menu-1-parent d-none">
+                                <div class="car-card-parent rounded-4 p-3 d-flex">
+                                    <p class="car-card-1">Cayenne</p>
+                                    <img class="" src="./project-assets/list-car-2" alt=""
+                                        style="height: 90px; width: 300px;">
+                                    <p class="mt-4 bg-white text-center rounded" style="width: 70px; height: 30px;">
+                                        Gasoline</p>
+                                </div>
+
+                                <div class="car-card-parent rounded-4 p-3 d-flex">
+                                    <p class="car-card-1">Macan</p>
+                                    <img class="" src="./project-assets/list-car-3" alt=""
+                                        style="height: 90px; width: 300px;">
+                                    <p class="mt-4 bg-white text-center rounded" style="width: 70px; height: 30px;">
+                                        Gasoline</p>
+                                </div>
+
+                                <div class="car-card-parent rounded-4 p-3 d-flex">
+                                    <p class="car-card-1">Panamera</p>
+                                    <img class="" src="./project-assets/list-car-4" alt=""
+                                        style="height: 90px; width: 300px;">
+                                    <p class="mt-4 bg-white text-center rounded" style="width: 70px; height: 30px;">
+                                        Gasoline</p>
+                                </div>
+
+                                <div class="car-card-parent rounded-4 p-3 d-flex">
+                                    <p class="car-card-1">Taycan</p>
+                                    <img class="" src="./project-assets/list-car-5" alt=""
+                                        style="height: 90px; width: 300px;">
+                                    <p class="mt-4 bg-white text-center rounded" style="width: 70px; height: 30px;">
+                                        Gasoline</p>
+                                </div>
+
+                                <div class="car-card-parent rounded-4 p-3 d-flex">
+                                    <p class="car-card-1">911</p>
+                                    <img class="" src="./project-assets/car-5" alt=""
+                                        style="height: 90px; width: 300px;">
+                                    <p class="mt-4 bg-white text-center rounded" style="width: 70px; height: 30px;">
+                                        Gasoline</p>
+                                </div>
+
+                                <div class="car-card-parent rounded-4 p-3 d-flex">
+                                    <p class="car-card-1">718</p>
+                                    <img class="" src="./project-assets/car-6" alt=""
+                                        style="height: 90px; width: 300px;">
+                                    <p class="mt-4 bg-white text-center rounded" style="width: 70px; height: 30px;">
+                                        Gasoline</p>
+                                </div>
+
+                            </div>
+
+                            <div class="menu-2-parent d-flex d-none">
+                                <h5>Configure</h5>
+                                <h5>Compare Models</h5>
+                                <h5>Find New and Pre-owned Vehicles</h5>
+                                <h5>E-Mobility & E-Performance</h5>
+                            </div>
+
+                            <div class="menu-3-parent d-flex d-none">
+                                <h5>Service & Maintanance</h5>
+                                <h5>Vehicle Accesories</h5>
+                                <h5>Individualisation</h5>
+                                <h5>Classic-Service & Parts</h5>
+                                <h5>Approved-Pre-Owned Cars & Warranty</h5>
+                            </div>
+
+                            <div class="menu-4-parent d-flex d-none">
+                                <h5>Motorsport</h5>
+                                <h5>Porsche Experience-Driving & Track Experiences</h5>
+                                <h5>Porsche Communities</h5>
+                                <h5>Golf Sports</h5>
+                                <h5>Stories-People.Passion.Places.</h5>
+                                <h5>Christophorus-The Porsche Magazine</h5>
+                                <h5>Visit the Museum & Factory</h5>
+                            </div>
+
+                            <div class="menu-5-parent d-none">
+                                <div><button class="text-white bg-black rounded" style="width: 100px; height: 55px;">Log
+                                        in</button><button class="text-black rounded ms-3"
+                                        style="width: 150px; height: 55px;">Discover more</button></div>
+
+                                <h5 class="mt-5">Messages</h5>
+                                <h5 class="mt-5">Find Connect Services</h5>
+                                <h5 class="mt-5">Profile Settings</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div>
+            <img src="./project-assets/final logo.png" alt="" class="porsche-logo">
+        </div>
+        <div class="d-none d-md-flex">
+            <i class='fs-4 bx bx-user user-icon text-white'></i>
+        </div>
+    </div>
+
+
+    <div class="card-parent d-flex justify-content-evenly ">
+        <div class="card border-0 three-card" style="width: 18rem;">
+            <img src="./project-assets/card-small" class="card-img-top rounded-4" alt="...">
+            <h5 class="card-button text-white ms-4 fs-6">The panamera 4S E-Hybrid.<i class='bx bx-right-arrow-alt'></i>
+            </h5>
+        </div>
+
+        <div class="card border-0" style="width: 18rem;">
+            <img src="./project-assets/card-sm-2" class="card-img-top rounded-4" alt="...">
+            <h5 class="card-button text-white ms-4 fs-6">The panamera 4S E-Hybrid.<i class='bx bx-right-arrow-alt'></i>
+            </h5>
+        </div>
+
+        <div class="card border-0" style="width: 18rem;">
+            <img src="./project-assets/card-sm-3" class="card-img-top rounded-4" alt="...">
+            <h5 class="card-button text-white ms-4 fs-6">The panamera 4S E-Hybrid.<i class='bx bx-right-arrow-alt'></i>
+            </h5>
+        </div>
+
+
+    </div>
+    <div class="d-none d-md-flex">
+        <p class="card-para mt-5">Panamera 4S E-Hybrid: Fuel consumption weighted (PHEV model range): 1.4 – 1.1 l/100
+            km, Electrical consumption combined (weighted) (model range): 286 – 260 Wh/km, CO2 Emissions weighted
+            combined (range): 33 – 24 g/km, CO2 Class weighted combined: B, CO2 Class with discharged battery: G, Fuel
+            consumption cobined (sustaining) (model range): 10.4 – 9.3 l/100 km | Macan 4 Electric: Electrical
+            consumption combined (WLTP): 21.1 – 17.9 kWh/100 km, CO2-emissions combined (WLTP): 0 g/km, CO2 Class: A |
+            911 Carrera S: Fuel consumption combined: 10.9 – 10.3 l/100 km, CO2-emissions combined (WLTP): 246 – 233
+            g/km, CO2 Class: G</p>
+    </div>
+
+    <div class="car-model d-flex justify-content-center">
+        <h3 class="model-car-content">Models</h3>
+    </div>
+
+    <div class="container">
+        <div class="row mt-5 six-card-parent">
+
+            <div class="col">
+                <div class="card-3 position-relative overflow-hidden mt-5 rounded-4" style="width: 550px;">
+                    <img src="./project-assets/card-2.jpg" class="rounded-4 card-img-top-1 model-card-1 img-fluid"
+                        alt="...">
+                    <p class="ms-4 card-text text-white">718</p>
+                    <p class="card-para-1 position-absolute ms-4 ps-2 text-white rounded">Gasoline</p>
+                    <div class="button-parent position-absolute w-100">
+                        <h4 class="card-content text-white">The mid-engine sports car for two made for pure
+                            driving
+                            pleasure.</h4>
+                        <div class="text-center card-btn">
+                            <button class="button-2 border-0 rounded-2">Build your 718</button>
+                        </div>
+                        <div class="text-center">
+                            <button class="button-3 mt-2 rounded-2 text-white">ALL 718 models</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="card-4 position-relative overflow-hidden mt-5 rounded-4" style="width: 550px;">
+                    <img src="./project-assets/card-1.jpg" class="rounded-4 card-img-top-1 img-fluid" alt="...">
+                    <p class="ms-4 card-text text-white">911</p>
+                    <p class="card-para-1 position-absolute ms-4 ps-2 text-white  rounded">Gasoline</p>
+                    <div class="button-parent position-absolute w-100">
+                        <h4 class="card-content text-white">The iconic,rear engine sports car with exceptional
+                            performance.</h4>
+                        <div class="text-center card-btn">
+                            <button class="button-2 border-0 rounded-2">Build your 911</button>
+                        </div>
+                        <div class="text-center">
+                            <button class="button-3 mt-2 rounded-2 text-white">ALL 911 models</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+                <div class="card-4 position-relative mt-5 overflow-hidden rounded-4" style="width: 550px;">
+                    <img src="./project-assets/card-3.jpg" class="rounded-4 card-img-top-1 img-fluid" alt="...">
+                    <p class="ms-4 card-text text-white">Taycan</p>
+                    <p class="card-para-1 position-absolute ms-4 ps-2 text-white  rounded">Gasoline</p>
+                    <div class="button-parent position-absolute w-100">
+                        <h4 class="card-content text-white">The pure expression of an electric sports car with
+                            motorsport performance.</h4>
+                        <div class="text-center card-btn">
+                            <button class="button-2 border-0 rounded-2">Build your Taycan</button>
+                        </div>
+                        <div class="text-center">
+                            <button class="button-3 mt-2 rounded-2 text-white">ALL Taycan models</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+                <div class="card-4 position-relative mt-5 overflow-hidden rounded-4" style="width: 550px;">
+                    <img src="./project-assets/card-4.jpg" class="rounded-4 card-img-top-1 img-fluid" alt="...">
+                    <p class="ms-4 card-text text-white">Panamera</p>
+                    <p class="card-para-1 position-absolute ms-4 ps-2 text-white  rounded">Gasoline</p>
+                    <div class="button-parent position-absolute w-100">
+                        <h4 class="card-content text-white">The sports car limousine for an active life style
+                            with
+                            highest comfort.</h4>
+                        <div class="text-center card-btn">
+                            <button class="button-2 border-0 rounded-2">Build your panamera</button>
+                        </div>
+                        <div class="text-center">
+                            <button class="button-3 mt-2 rounded-2 text-white">ALL panamera models</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+                <div class="card-4 position-relative mt-5 overflow-hidden rounded-4" style="width: 550px;">
+                    <img src="./project-assets/card-5.jpg" class="rounded-4 card-img-top-1 img-fluid" alt="...">
+                    <p class="ms-4 card-text text-white">Macan</p>
+                    <p class="card-para-1 position-absolute ms-4 ps-2 text-white  rounded">Gasoline</p>
+                    <div class="button-parent position-absolute w-100">
+                        <h4 class="card-content text-white">ALL electric SUV with impressive E-performance.
+                        </h4>
+                        <div class="text-center card-btn">
+                            <button class="button-2 border-0 rounded-2">Build your Macan</button>
+                        </div>
+                        <div class="text-center">
+                            <button class="button-3 mt-2 rounded-2 text-white">ALL Macan models</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+                <div class="card-3 position-relative mt-5 overflow-hidden rounded-4" style="width: 550px;">
+                    <img src="./project-assets/card-6.jpg" class="rounded-4 card-img-top-1 img-fluid" alt="...">
+                    <p class="ms-4 card-text text-white">Cayenne</p>
+                    <p class="card-para-1 position-absolute ms-4 ps-2 text-white  rounded">Gasoline</p>
+                    <div class="button-parent position-absolute w-100">
+                        <h4 class="card-content text-white">The versatile SUV with sports car per-performance
+                            and
+                            up to five seats.</h4>
+                        <div class="text-center card-btn">
+                            <button class="button-2 border-0 rounded-2">Build your Cayenne</button>
+                        </div>
+                        <div class="text-center">
+                            <button class="button-3 mt-2 rounded-2 text-white">ALL Cayenne models</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <h1 class="card-7-text">Discover</h1>
+        </div>
+
+
+
+        <div class="d-flex justify-content-evenly mt-5 section-2-card">
+            <div class="bottom-card-final rounded-4">
+                <img src="./project-assets/card-7" class="final-img w-100 rounded-4 img-fluid">
+                <div class=" d-flex ">
+                    <h5 class="card-button-1 ms-4">Porsche Experience.<i class='bx bx-right-arrow-alt fs-4 ms-5'></i>
+                    </h5>
+                </div>
+            </div>
+
+
+            <div class="bottom-card-final rounded-4 ">
+                <img src="./project-assets/card-8" class="final-img w-100 rounded-4">
+                <div class="d-flex">
+                    <h5 class="card-button-1 ms-4">Porsche Destination Charging.<i
+                            class='bx bx-right-arrow-alt fs-4 ms-4'></i>
+                    </h5>
+                </div>
+
+            </div>
+
+            <div class="bottom-card-final rounded-4 ">
+                <img src="./project-assets/card-9" class="final-img w-100 rounded-4">
+                <div class="d-flex">
+                    <h5 class="card-button-1 ms-4">Porsche Finder.<i class='bx bx-right-arrow-alt fs-4 ms-3'></i>
+                    </h5>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer-content w-100 bg-black">
+        <div class="container-fluid">
+            <div class="row footer-content-3">
+                <div class="col text-white mt-5">
+                    <h4>Current Region/Language</h4>
+                    <div class="globel-icon mt-4 d-flex">
+                        <i class="fa-solid fa-globe globel-icon fs-3"></i>
+                        <p class="ms-2">International / English</p>
+                        <a href="" class="ms-3 text-white">Change</a>
+                    </div>
+                    <h4 class="mt-3">Newsletter</h4>
+                    <p class="fs-6">Latest news directly in your inbox</p>
+                    <button class="button-4 border-0 mt-4 rounded">Subcribe</button>
+                    <p class="fs-5 mt-5">Company</p>
+                    <p>Investor Relations</p>
+                    <p>Compliance</p>
+                </div>
+                <div class="col text-white footer-column-2">
+                    <h4 class="mt-3">Newsletter</h4>
+                    <p class="fs-6">Latest news directly in your inbox</p>
+                    <button class="button-4 border-0 mt-4 rounded">Get in Touch</button>
+                    <p class="mt-5">Investor Relations</p>
+                    <p>Compliance</p>
+                </div>
+                <div class="col text-white footer-column-2">
+                    <h4 class="mt-3">Newsletter</h4>
+                    <p class="fs-6">Latest news directly in your inbox</p>
+                    <div class="d-flex">
+                        <i
+                        class='bx bxl-facebook bg-white text-black fs-2 text-center pt-2 mt-4 rounded facebook-icon'></i><i
+                        class='bx bxl-instagram bg-white text-black fs-2 text-center pt-2 mt-4 rounded facebook-icon ms-3'></i><i
+                        class='bx bxl-pinterest-alt bg-white text-black fs-2 text-center pt-2 mt-4 rounded facebook-icon ms-3'></i><i
+                        class='bx bxl-youtube bg-white text-black fs-2 text-center pt-2 mt-4 rounded facebook-icon ms-3'></i><i
+                        class="fa-brands fa-x-twitter bg-white text-black fs-4 text-center pt-3 mt-4 rounded facebook-icon ms-3 d-none d-sm-block"></i><i
+                        class='bx bxl-linkedin bg-white text-black fs-2 text-center pt-2 mt-4 rounded facebook-icon ms-3'></i>
+                    </div>
+                    
+                    <p class="mt-5">Investor Relations</p>
+                    <p>Compliance</p>
+                </div>
+
+                <hr>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
