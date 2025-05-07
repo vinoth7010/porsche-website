@@ -119,5 +119,3 @@ menu.forEach((item)=>{
 })
 
 
-
-C:\Users\vinot\OneDrive\Desktop\porsche-copy\index2.html
